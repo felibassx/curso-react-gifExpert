@@ -25,11 +25,18 @@ export const AddCategory = ( {setCategories} ) => {
 
     return (
         <form onSubmit={ handleSubmit }>
+            <br />
+            <label>Buscar Gifs</label>
+            <br />
+            <br />
             <input 
+                placeholder="Escribe aquí tu búsqueda, luego presiona enter"
                 type="text" 
                 value={ inputValue } 
                 onChange={ handleInputChange }
             ></input>
+            <br />
+            <br />
         </form>
     )
 }
